@@ -5,35 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Tanuki Games - About</title>
+    <link rel="stylesheet" href="about.css" async>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-info">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Tanuki Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.kickstarter.com/?country=US">Kickstarter</a>
-                </li>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.kickstarter.com/?country=US">Kickstarter</a>
+              </li>
             </ul>
+          </div>
         </div>
-        <!-- creates a nav to all pages -->
     </nav>
-
+    <div id="backdrop">
+        <div id="top">
+            <h5 class="card-title display-3" >Tanuki Games</h5>
+            <img src="pictures/logo.png">
+            <p class="card-text">Gameplay || Narrative || Investment</p>
+        </div>
+        <div id="developer_sect" class="row">
+            <div class="col-4">
+                <img src="pictures/logo.png" alt="pic of meee">
+            </div>
+            <div class="col-8">
+                <p>
+                    My name is Hunter Funk and I am the head of Tanuki Games. I have had a passion for video games
+                    ever since I was younger when my brother taught me to play co-op with him on his Playstation 2.
+                </p>
+            </div>
+        </div>
+        <div id="mission_sect">
+            <h1>About us...</h1>
+            <p id="mission_statement">
+                As an indie game software development company made of creative minds and players alike, 
+                we wish to combine our efforts into a project we can all be proud of and give our audience 
+                a gaming experience worth more than the money they spent. Our mission as a united team, 
+                we wish to put our own mark in the gaming world and will strive to deliver a fulfilling 
+                story to accompany challenging, yet rewarding gameplay emphasizing exploration, narrative, 
+                and investment. We intend to use the initial $50,000 budget to begin development on a 
+                Metroidvania-style game, with memorable characters, interesting 2D landscapes and dungeon 
+                crawling, as well as a personal connection to our audience and supporters. The final game 
+                we produce will not only be a work of passion on the team’s end, but also for those who 
+                chose to support us during development. We have full intentions of making this project a 
+                group effort and allowing our backers to have a hand in development, whether it is inspiring 
+                dedicated characters to them, cosmetic items, or early access before the final release of the 
+                game. We envision an expected timeline that a finished master version of the game will be 
+                available for release within two years of development and making the most of the initial 
+                $50,000 in that time. Beyond that time limit if the game is not finished, we will be reliant 
+                on money from our backers. If the game is finished by that time and there is excess funds or 
+                has a successful launch, the extra money will be put into developing new additional content 
+                for the game. Currently, the game is planned for release on Steam for PC.
+            </p>
+        </div>
+    </div>
+    <footer class="row">
+        <p class="col-6">Follow us on <a href="">Twitter</a> and <a href="">Instagram</a></p>
+        <p class="col-6">Consider supporting us on <a href="">Kickstarter</a></p>
+    </footer>
 </body>
+</html>

@@ -5,35 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Tanuki Games - Contact</title>
+    <link rel="stylesheet" href="contact.css" async>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-info">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Tanuki Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.kickstarter.com/?country=US">Kickstarter</a>
-                </li>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.kickstarter.com/?country=US">Kickstarter</a>
+              </li>
             </ul>
+          </div>
         </div>
-        <!-- creates a nav to all pages -->
     </nav>
-
+    <div id="backdrop">
+        <div id="questions">
+            <img src="pictures/logo.png">
+            <h1>Have a message for the dev?</h1>
+            <p>
+                Want more information? Curious about development? Possible business propositions?<br>
+                All those questions and more can be answered by sending us an email though our site!
+            </p>
+        </div>
+        <div>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Sign up for our newsletter on development by mail</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer class="row">
+        <p class="col-6">Follow us on <a href="">Twitter</a> and <a href="">Instagram</a></p>
+        <p class="col-6">Consider supporting us on <a href="">Kickstarter</a></p>
+    </footer>
 </body>
+</html>

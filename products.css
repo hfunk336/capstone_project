@@ -1,0 +1,54 @@
+/* BODY STYLES */
+body{
+    background-color: rgb(20, 20, 20);
+    background-image: url(pictures/Promo_5.png);
+    width: 100%;
+    color: white;
+    box-shadow: inset 100px 100px 60px black, inset -100px -100px 60px black;
+}
+
+/* TOP STYLES */
+#top{
+    text-align: center;
+}
+
+/* BACKDROP STYLES */
+#backdrop{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+
+/* GAME NAV STYLES */
+#game_nav{
+    justify-content: center;
+}
+/* GAME INFO STYLES */
+#game_info{
+    border-style: double;
+    border-color: white;
+    border-width: 2px;
+    text-align: center
+}
+#game_head{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#about_game{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: double;
+    border-color: white;
+    border-width: 2px;
+    height: 20em;
+    overflow: auto;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+}

@@ -1,0 +1,37 @@
+/* BODY STYLES */
+body{
+    background-color: rgb(20, 20, 20);
+    background-image: url(pictures/promo_04.png);
+    width: 100%;
+    color: white;
+    box-shadow: inset 100px 100px 60px black, inset -100px -100px 60px black;
+}
+
+/* BACKDROP STYLES */
+#backdrop{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+
+/* QUESTIONS STYLES */
+#questions{
+    text-align: center;
+    color: white;
+
+}
+
+/* FORMS STYLES */
+form{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+}
