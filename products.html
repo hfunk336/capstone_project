@@ -10,7 +10,9 @@
     <script src="products.js" async></script>
     <script src="background_animation.js" async></script>
 </head>
-<body style="background-image: url(pictures/Promo_5.png);">
+<body style="background-image: url(pictures/Promo_5.png);"> 
+<!-- BACKGROUND-IMAGE SET IN HTML FOR CHANGING IT IN JS -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Tanuki Games</a>
@@ -38,10 +40,15 @@
           </div>
         </div>
     </nav>
+
+    <!-- BACKDROP BEGINS HERE -->
     <div id="backdrop">
+
+        <!-- BANNER INTROS GAME, NOT COMPANY -->
         <div id="top">
             <h5 class="card-title display-3" >Project Cryptovania</h5>
         </div>
+        <!-- 2ND NAVBAR, USED TO CHANGE INFORMATION ON PAGE -->
         <nav id="game_nav" class="navbar navbar-expand-lg navbar-dark bg-dark text-info">
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -58,11 +65,15 @@
                         <a class="nav-link" href="#">Release Date</a>
                     </li>
                 </ul>
+                <!-- EACH LI HAS AN ONCLICK EVENT THAT CORRESPONDS TO A FUNCTION IN THE JS -->
             </div>
-            <!-- creates a nav to all pages -->
         </nav>
+
+        <!-- BEGINS SECTION ON THE GAME -->
         <div id="game_info">
+            <!-- CHANGES WITH INFO ON PAGE WHEN 2ND NAVBAR IS USED -->
             <h1 id="game_head">Story</h1>
+            <!-- CHANGES INFORMATION TO MATCH WHAT WAS SELECTED ON 2ND NAVBAR -->
             <p id="about_game">
               Our story takes place in a city-state called Terrend built into the side of a large moutain 
               where the higher up the face of the mountain you live, the higher standard of living you have. 
@@ -82,6 +93,8 @@
             </p>
         </div>
     </div>
+
+    <!-- FOOTER -->
     <footer class="row">
         <p class="col-6">Follow us on <a href="">Twitter</a> and <a href="">Instagram</a></p>
         <p class="col-6">Consider supporting us on <a href="">Kickstarter</a></p>

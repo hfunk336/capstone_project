@@ -1,13 +1,17 @@
 var article = document.getElementById("about_game");
 var title = document.getElementById("game_head");
 
-
+// changes the information on the products page to match what was selected on the 2nd navbar
+// each item on the navbar has an onclick with a number in the parameter
+// that number is used to fill in the about_game and game_head with the correlating info from the gameInfo array
 function change(x){
     article.innerHTML = gameInfo[x];
     title.innerHTML = gameHead[x];
 }
 
+
 var gameInfo = [
+    // Story information
     "Our story takes place in a city-state called Terrend built into the side of a large moutain " +
     "where the higher up the face of the mountain you live, the higher standard of living you have. " +
     "Your family has lived in the lower sectors, the Rubble Yard, for generations and now struggle " +
@@ -23,6 +27,8 @@ var gameInfo = [
     "government desparately wants, and if someone were to find it, their life sentence would be lifted. " +
     "With the hope of finding whatever is buried below, you choose to dig and return back to your family " +
     "on the surface.",
+
+    // Genre information
     "True to the genre, expect hours of 2D side-scrolling action and exploration. Brave dangerous monsters, " +
     "solve complex dungeons, and discover the mystery behind Terrend and its original civilization. Inspired " +
     "by some of the dev's favorite games, such as: Hollow Knight, Legend of Zelda, and Metroid Fusion " +
@@ -32,16 +38,21 @@ var gameInfo = [
     "through enemies quicker, or perhaps add fire to your weapons and deal damage over time. Your upgrades " +
     "matter as your gear progresses down a large tree of skills and perks, rewarding you for finding the " +
     "secrets The Crypt has to offer.",
+
+    // Character information
     "When you return from the Crypt, you will be able to rest on the first floor of the Mines, named \"The " +
     "Chapel.\" While their, you will be able to spend your collected materials on upgrades for your gear, buy " +
     "consumables to bring with you in The Crypt, and enjoy cutscenes with fellow Gravediggers who may reward " +
     "you for completing quests to trigger their events. ",
+
+    // Release Date information
     "<h2>TBA</h2> <br> We thank all of those who have chosen to support us and ask for patience so we may " +
     "release a finished and worthwhile experience for all players. Consider aiding development on Kickstarter " +
     "where those who donate enough can receive in-game rewards, as well as a download before the official " +
     "release date!"
 ];
 
+// array to change the game_head title
 var gameHead = [
     "Story", "Metroidvania", "Characters", "Official Release Date!" 
 ]

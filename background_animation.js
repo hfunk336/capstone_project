@@ -1,6 +1,7 @@
 background = document.getElementsByTagName("body")[0]
-var i = 0;
+var i = 0; // used as an index
 
+// function to change the background every 3 seconds
 setInterval(function(){
     i++;
     if(i == 1){

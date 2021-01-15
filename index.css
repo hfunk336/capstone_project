@@ -9,13 +9,6 @@ body{
     box-shadow: inset 50px 50px 60px black, inset -50px -50px 60px black;
 }
 
-/* BANNER STYLES
-#banner{
-    box-shadow: inset 100px 100px 50px black, inset -100px -100px 50px black;
-    height: 400px;
-
-} */
-
 /* TOP STYLES */
 #top{
     text-align: center;
@@ -64,12 +57,6 @@ body{
     border-width: 2px;
     background-color: rgba(0, 0, 0, 0.75);
 }
-#dev-pic{
-
-}
-#dev_info{
-    
-}
 
 /* GAME STYLES */
 #game_sect{
@@ -89,7 +76,7 @@ body{
     width: 50%;
 }
 
-/* BLOG STYLES
+/* BLOG STYLES ~ WAS REMOVED
 #blog_sect{
 
 } */
