@@ -3,7 +3,9 @@ body{
     background-color: rgb(20, 20, 20);
     background-image: url(pictures/promo_04.png);
     width: 100%;
-    color: white;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: rgb(235, 235, 235);
     box-shadow: inset 50px 50px 60px black, inset -50px -50px 60px black;
 }
 
@@ -40,12 +42,12 @@ body{
     width: 70%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 2em;
     text-align: center;
-    color: white;
+    color: rgb(235, 235, 235);
     border-style: double;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0.5);
     border-width: 2px;
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -64,9 +66,9 @@ body{
     padding-top: 5em;
     padding-bottom: 5em;
     padding-right: 4em;
-    color: white;
+    color: rgb(235, 235, 235);
     border-style: double;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0.5);
     border-width: 2px;
     background-color: rgba(0, 0, 0, 0.75);
 }

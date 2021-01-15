@@ -3,7 +3,9 @@ body{
     background-color: rgb(20, 20, 20);
     background-image: url(pictures/promo_04.png);
     width: 100%;
-    color: white;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: rgb(235, 235, 235);
     box-shadow: inset 100px 100px 60px black, inset -100px -100px 60px black;
 }
 
@@ -19,7 +21,6 @@ body{
 /* QUESTIONS STYLES */
 #questions{
     text-align: center;
-    color: white;
 
 }
 

@@ -1,12 +1,16 @@
 /* BODY STYLES */
 body{
     background-color: rgb(20, 20, 20);
-    background-image: url(pictures/Promo_5.png);
+    /* background-image: url(pictures/Promo_5.png); */
     width: 100%;
-    color: white;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: rgb(235, 235, 235);
     box-shadow: inset 100px 100px 60px black, inset -100px -100px 60px black;
 }
-
+/* body::after{
+    opacity: 100%;
+} */
 /* TOP STYLES */
 #top{
     text-align: center;
@@ -14,7 +18,7 @@ body{
 
 /* BACKDROP STYLES */
 #backdrop{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, .75);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -27,9 +31,9 @@ body{
 }
 /* GAME INFO STYLES */
 #game_info{
-    border-style: double;
-    border-color: white;
-    border-width: 2px;
+    /* border-style: double;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px; */
     text-align: center
 }
 #game_head{
@@ -37,14 +41,19 @@ body{
     padding-bottom: 1em;
 }
 #about_game{
+    font-size: 1em;
+    font-weight: 600;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    border-style: double;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* border-style: double;
     border-color: white;
-    border-width: 2px;
-    height: 20em;
+    border-width: 2px; */
+    height: 25em;
     overflow: auto;
+    line-height: 2.5em; 
 }
 
 footer{
