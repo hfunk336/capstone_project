@@ -17,7 +17,7 @@ var gameInfo = [
     "Your family has lived in the lower sectors, the Rubble Yard, for generations and now struggle " +
     "with the coming plague striking the less fortunate citizens of the lower sectors. With the money " +
     "you can spare, you leave home to purchase medicine for your younger sibling once they become ill. " +
-    "After sneaking your way into the middle sector to purchase medicine for the apothecary, you get " +
+    "After sneaking your way into the middle sector to purchase medicine from the apothecary, you get " +
     "caught up in a series of unfortunate events, framed for stealing the medication, face trial, and " +
     "imprisoned to the Mines. Down below Terrend, you meet other prisoners who have given themselves " +
     "the collective name, \"Gravediggers\" since no one has seen the light of day since imprisonment " +
