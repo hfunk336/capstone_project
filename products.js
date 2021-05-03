@@ -17,7 +17,7 @@ var gameInfo = [
     "Your family has lived in the lower sectors, the Rubble Yard, for generations and now struggle " +
     "with the coming plague striking the less fortunate citizens of the lower sectors. With the money " +
     "you can spare, you leave home to purchase medicine for your younger sibling once they become ill. " +
-    "After sneaking your way into the middle sector to purchase medicine for the apothecary, you get " +
+    "After sneaking your way into the middle sector to purchase medicine from the apothecary, you get " +
     "caught up in a series of unfortunate events, framed for stealing the medication, face trial, and " +
     "imprisoned to the Mines. Down below Terrend, you meet other prisoners who have given themselves " +
     "the collective name, \"Gravediggers\" since no one has seen the light of day since imprisonment " +
@@ -31,7 +31,7 @@ var gameInfo = [
     // Genre information
     "True to the genre, expect hours of 2D side-scrolling action and exploration. Brave dangerous monsters, " +
     "solve complex dungeons, and discover the mystery behind Terrend and its original civilization. Inspired " +
-    "by some of the dev's favorite games, such as: Hollow Knight, Legend of Zelda, and Metroid Fusion " +
+    "by some of the dev's favorite games, such as: Hollow Knight, Legend of Zelda, and Metroid Fusion. " +
     "Metroidvania titles are 2D side-scrolling action adventure games inspired by the original Metroid and " +
     "Castelvania games. Whether you are a veteran or newcomer, Project: Cryptovania will include a multitude " +
     "of game mechanics. Through exploration, you will find new materials to upgrade your gear to make cutting " +
